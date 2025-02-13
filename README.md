@@ -36,9 +36,15 @@ Create a user with superuser access: `CREATE USER {username} WITH SUPERUSER PASS
 
 Give all privileges to database for user: `GRANT ALL PRIVILAGES ON DATABASE {database_name} TO {username}`
 
-# Useful Tinker commands
+# Other useful commands
 
 Enter tinker: `php artisan tinker`
+
+Run a migration: `php artisan migrate`
+
+Create a migration file: `php artisan make:migration {migration_name(should use underscores)}`
+
+Rollback migrations: `php artistan migrate:rollback`
 
 # Useful info
 
