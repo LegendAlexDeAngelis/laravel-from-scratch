@@ -6,13 +6,15 @@ From the Laravel from Scratch course - https://learning.oreilly.com/course/larav
 
 Run the vite hot reloading server: `npm run dev`
 
-Make a controller with a class only: `php artisan make:controller xController`
+Make a controller with a class only: `php artisan make:controller {ControllerName}`
 
-Make a controller with a class with standard resource methods: `php artisan make:controller TestController --resource`
+Make a controller with a class with standard resource methods: `php artisan make:controller {ControllerName} --resource`
 
 - These need to be run at the root of the Laravel project (Might not be the root of the git repo)
 
-Create a new component: `php artisan make:component x`
+Create a new component: `php artisan make:component {component-name}`
+
+Create a new model: `php artisan make:model {ModelName}`
 
 # Useful PostgreSQL setup commands
 
@@ -36,9 +38,27 @@ Create a user with superuser access: `CREATE USER {username} WITH SUPERUSER PASS
 
 Give all privileges to database for user: `GRANT ALL PRIVILAGES ON DATABASE {database_name} TO {username}`
 
-# Other useful commands
+# Tinker commands for CRUD (Create, Read, Update, Delete)
 
 Enter tinker: `php artisan tinker`
+
+View a class: `App\Models\Job::all()`
+
+Show the table schema: `Schema::getColumnListing('{name_of_table}')`
+
+Use a class easily: `$job = App\Models\Job::class`
+
+View a class after doing previous command: `$job::all()`
+
+Add a record in the database: `$job::create(['title' => 'Job 1','description' => 'This is job one'])`
+
+Find a record in the database: `$job::find(4)`
+
+Update a record in the database: `$job::find(1)->update(['title' => 'Updated Job One'])`
+
+Delete a record in the database: `$job::find(4)->delete()`
+
+# Other useful commands
 
 Run a migration: `php artisan migrate`
 
