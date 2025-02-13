@@ -2,7 +2,7 @@
 
 From the Laravel from Scratch course - https://learning.oreilly.com/course/laravel-from-scratch/9781836640035/
 
-# Commands to remember
+# Useful Laravel commands
 
 Run the vite hot reloading server: `npm run dev`
 
@@ -13,6 +13,32 @@ Make a controller with a class with standard resource methods: `php artisan make
 - These need to be run at the root of the Laravel project (Might not be the root of the git repo)
 
 Create a new component: `php artisan make:component x`
+
+# Useful PostgreSQL setup commands
+
+Start PostgreSQL server: `brew services start postgresql`
+
+Check services that are running: `brew services list`
+
+Log into the PostgreSQL shell: `psql postgres`
+
+# Useful PostgreSQL commands
+
+See all databases: `\list` or `\l`
+
+See all users: `\du`
+
+Exit the terminal: `\q`
+
+Create a database: `psql -U {default_username} -d postgres` and then `CREATE DATABASE {database_name};`
+
+Create a user with superuser access: `CREATE USER {username} WITH SUPERUSER PASSWORD '{password}';`
+
+Give all privileges to database for user: `GRANT ALL PRIVILAGES ON DATABASE {database_name} TO {username}`
+
+# Useful Tinker commands
+
+Enter tinker: `php artisan tinker`
 
 # Useful info
 
