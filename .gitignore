@@ -1,0 +1,25 @@
+# Ignore vendor dependencies
+/vendor/
+
+# Node modules
+/node_modules/
+
+# Laravel specific
+/public/storage
+/public/hot
+/storage/*.key
+
+# Environment files
+.env
+.env.* 
+
+# IDE and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Others
+npm-debug.log
+yarn-error.log
+Homestead.json
+Homestead.yaml
