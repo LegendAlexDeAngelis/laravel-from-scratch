@@ -16,6 +16,8 @@ Create a new component: `php artisan make:component {component-name}`
 
 Create a new model: `php artisan make:model {ModelName}`
 
+Create a new factory `php artisan make:factory {FactoryName}}`
+
 # Useful PostgreSQL setup commands
 
 Start PostgreSQL server: `brew services start postgresql`
