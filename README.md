@@ -58,6 +58,10 @@ Update a record in the database: `$job::find(1)->update(['title' => 'Updated Job
 
 Delete a record in the database: `$job::find(4)->delete()`
 
+Create a user: `\App\Models\User::factory()->create();`
+
+Create 10 users: `\App\Models\User::factory()->count(10)->create();`
+
 # Other useful commands
 
 Run a migration: `php artisan migrate`
