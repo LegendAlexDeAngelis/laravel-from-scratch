@@ -64,6 +64,8 @@ Run a migration: `php artisan migrate`
 
 Create a migration file: `php artisan make:migration {migration_name(should use underscores)}`
 
+Create a migration file that will use a specific table: `php artisan make:migration {migration_name} --table={table_name}`
+
 Rollback migrations: `php artistan migrate:rollback`
 
 # Useful info
