@@ -16,7 +16,11 @@ Create a new component: `php artisan make:component {component-name}`
 
 Create a new model: `php artisan make:model {ModelName}`
 
-Create a new factory `php artisan make:factory {FactoryName}}`
+Create a new factory: `php artisan make:factory {FactoryName}}`
+
+Create a new seeder: `php artisan make:seeder {SeederName}`
+
+Seed the database using a seeder: `php artisan db:seed --class={SeederClass}`
 
 # Useful PostgreSQL setup commands
 
