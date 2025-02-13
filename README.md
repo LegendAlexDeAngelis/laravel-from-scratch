@@ -22,6 +22,8 @@ Create a new seeder: `php artisan make:seeder {SeederName}`
 
 Seed the database using a seeder: `php artisan db:seed --class={SeederClass}`
 
+Reset the data in the database: `php artisan db:seed`
+
 # Useful PostgreSQL setup commands
 
 Start PostgreSQL server: `brew services start postgresql`
