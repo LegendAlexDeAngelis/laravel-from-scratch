@@ -2,6 +2,10 @@
 
 From the Laravel from Scratch course - https://learning.oreilly.com/course/laravel-from-scratch/9781836640035/
 
+# Development Commands
+
+Start development environment (Herd + Vite): `make dev`
+
 # Useful Laravel commands
 
 Run the vite hot reloading server: `npm run dev`
