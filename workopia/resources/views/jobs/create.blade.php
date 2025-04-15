@@ -43,7 +43,7 @@
 
             <x-inputs.text id="city" name="city" label="City" placeholder="Albany" />
 
-            <x-inputs.text id="state" name="state" label="State" placeholder="NY" />
+            <x-inputs.text id="county" name="county" label="County" placeholder="NY" />
 
             <x-inputs.text id="zipcode" name="zipcode" label="Zipcode" placeholder="12201" />
 
@@ -57,7 +57,7 @@
             <x-inputs.text-area id="company_description" name="company_description" label="Company Description"
                 placeholder="Company Description" rows=3 />
 
-            <x-inputs.text id="company_website" name="company_website" label="Company Website"
+            <x-inputs.text id="company_website" name="company_website" label="Company Website" type="url"
                 placeholder="Enter Company Website" />
 
             <x-inputs.text id="contact_phone" name="contact_phone" label="Contact Phone"
