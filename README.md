@@ -28,6 +28,8 @@ Seed the database using a seeder: `php artisan db:seed --class={SeederClass}`
 
 Reset the data in the database: `php artisan db:seed`
 
+Add symlink to allow uploaded files to be available to the public: `php artisan storage:link`
+
 # Useful PostgreSQL setup commands
 
 Start PostgreSQL server: `brew services start postgresql`
