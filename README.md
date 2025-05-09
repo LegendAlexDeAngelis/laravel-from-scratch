@@ -36,6 +36,8 @@ Create a policy (with known Job model): `php artisan make:policy {PolicyName} --
 
 Create a provider: `php artisan make:provider {ProviderName}`
 
+Create a vendor folder for pagination: `php artisan vendor:publish --tag=laravel-pagination`
+
 # Useful PostgreSQL setup commands
 
 Start PostgreSQL server: `brew services start postgresql`
