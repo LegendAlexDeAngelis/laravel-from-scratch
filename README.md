@@ -32,6 +32,10 @@ Add symlink to allow uploaded files to be available to the public: `php artisan 
 
 Create a middleware: `php artisan make:middleware {MiddlewareName}`
 
+Create a policy (with known Job model): `php artisan make:policy {PolicyName} --model=Job`
+
+Create a provider: `php artisan make:provider {ProviderName}`
+
 # Useful PostgreSQL setup commands
 
 Start PostgreSQL server: `brew services start postgresql`
