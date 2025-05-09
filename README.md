@@ -30,6 +30,8 @@ Reset the data in the database: `php artisan db:seed`
 
 Add symlink to allow uploaded files to be available to the public: `php artisan storage:link`
 
+Create a middleware: `php artisan make:middleware {MiddlewareName}`
+
 # Useful PostgreSQL setup commands
 
 Start PostgreSQL server: `brew services start postgresql`
